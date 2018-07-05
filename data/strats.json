@@ -1,0 +1,264 @@
+{
+    "players": [
+        "Mojo", "Mystik", "Jben", "Fire", "Calcifer"
+    ],
+    "maps": [
+        "coastal", "manorhouse"
+    ],
+    "coastal": [
+        {
+            "name": "Default",
+            "summary": "Focusing on gathering information, and maintaining map control",
+            "requiredLoadout": {
+                "coinsNeeded": 4,
+                "smokesNeeded": 4,
+                "nadesNeeded": 0
+            },
+            "roles": [
+                {
+                    "name": "Mojo",
+                    "summary": "Take Bottom Red Control, Hold SMOKE For A cross, Push Bottom A",
+                    "loadout": { "smoke": true, "frag": false }
+                },
+                {
+                    "name": "Mystik",
+                    "summary": "SMOKE Left Side Statue, Play Slow On Coast, Observer Defenders Nades and Positions",
+                    "loadout": { "smoke": true, "frag": false }
+                },
+                {
+                    "name": "Fire",
+                    "summary": "Play slow on B, Kill flankers, Get defender playstyle info on B",
+                    "loadout": { "smoke": false, "frag": false }
+                },
+                {
+                    "name": "Calcifer",
+                    "summary": "Pressure Broken with Jben, SMOKE Connector, Play Broken Wall",
+                    "loadout": { "smoke": true, "frag": false }
+                },
+                {
+                    "name": "Jben",
+                    "summary": "SMOKE Right Side Statue, Pressure broken, flank tank, Help Push A",
+                    "loadout": { "smoke": true, "frag": false }
+                }
+            ]
+        },
+        {
+            "name": "B Default",
+            "summary": "2 Push Site From Front, 1 from yellow, 1 holds street",
+            "requiredLoadout": {
+                "coinsNeeded": 5,
+                "smokesNeeded": 3,
+                "nadesNeeded": 1
+            },
+            "roles": [
+                {
+                    "name": "Mojo",
+                    "summary": "SMOKE Front Truck, Can Nade Barrels, Smoke signals start of push",
+                    "loadout": { "smoke": true, "frag": false }
+                },
+                {
+                    "name": "Mystik",
+                    "summary": "Nade statue at beginning of push, Hold Yellow Control",
+                    "loadout": { "smoke": false, "frag": true }
+                },
+                {
+                    "name": "Fire",
+                    "summary": "Peeks barrels; L; or Truck from garden, Hold street and truck on push",
+                    "loadout": { "smoke": false, "frag": false }
+                },
+                {
+                    "name": "Calcifer",
+                    "summary": "Hold T-Con, SMOKE To Cross Arch Safe if Playing Arch, Gather Info On Aggressive A Pushers, Move to team when possible",
+                    "loadout": { "smoke": true, "frag": false }
+                },
+                {
+                    "name": "Jben",
+                    "summary": "Hold white box, Can Nade L, Push where nessassary",
+                    "loadout": { "smoke": true, "frag": false }
+                }
+            ]
+        },
+        {
+            "name": "B Snake",
+            "summary": "3 through street taking L turn and Back B Stairs, pinching on B site",
+            "requiredLoadout": {
+                "coinsNeeded": 4,
+                "smokesNeeded": 2,
+                "nadesNeeded": 1
+            },
+            "roles": [
+                {
+                    "name": "Mojo",
+                    "summary": "SMOKE Front Truck, Take Stair Control",
+                    "loadout": { "smoke": true, "frag": false }
+                },
+                {
+                    "name": "Mystik",
+                    "summary": "Nade L Turn, Signal GO when getting ready to nade",
+                    "loadout": { "smoke": false, "frag": true }
+                },
+                {
+                    "name": "Fire",
+                    "summary": "Nades white box, SMOKE Connector, Holds Back Truck Control",
+                    "loadout": { "smoke": true, "frag": true }
+                },
+                {
+                    "name": "Calcifer",
+                    "summary": "Holds T-Con, free to nade or SMOKE whatever",
+                    "loadout": { "smoke": false, "frag": false }
+                },
+                {
+                    "name": "Jben",
+                    "summary": "Free Nade, Take L Control",
+                    "loadout": { "smoke": false, "frag": false }
+                }
+            ]
+        },
+        {
+            "name": "A Coast Heavy",
+            "summary": "Get Headshot Control, Double MID Smokes, pressure A, Smoke Tank",
+            "requiredLoadout": {
+                "coinsNeeded": 7,
+                "smokesNeeded": 3,
+                "nadesNeeded": 2
+            },
+            "roles": [
+                {
+                    "name": "Mojo",
+                    "summary": "Pressure through bottom A, CAN hold SMOKE for tank",
+                    "loadout": { "smoke": false, "frag": false }
+                },
+                {
+                    "name": "Mystik",
+                    "summary": "SMOKE Left Side Statue, nade A-Alley",
+                    "loadout": { "smoke": true, "frag": true }
+                },
+                {
+                    "name": "Fire",
+                    "summary": "Control Headshot on Broken, Nade A Bombsite",
+                    "loadout": { "smoke": false, "frag": false }
+                },
+                {
+                    "name": "Calcifer",
+                    "summary": "SMOKE tank late for cross, Hold Flank/Mid/Top A",
+                    "loadout": { "smoke": true, "frag": false }
+                },
+                {
+                    "name": "Jben",
+                    "summary": "SMOKE right side statue, Nade front red, Hold coastal",
+                    "loadout": { "smoke": true, "frag": true }
+                }
+            ]
+        }
+    ],
+    "manorhouse": [
+        {
+            "name": "Default",
+            "summary": "Focusing on gathering information, and maintaining map control",
+            "requiredLoadout": {
+                "coinsNeeded": 4,
+                "smokesNeeded": 4,
+                "nadesNeeded": 0
+            },
+            "roles": [
+                {
+                    "name": "Mojo",
+                    "summary": "Take Bottom Red Control, Hold SMOKE For A cross, Push Bottom A",
+                    "loadout": { "smoke": true, "frag": false }
+                },
+                {
+                    "name": "Mystik",
+                    "summary": "SMOKE Left Side Statue, Play Slow On Coast, Observer Defenders Nades and Positions",
+                    "loadout": { "smoke": true, "frag": false }
+                },
+                {
+                    "name": "Fire",
+                    "summary": "Play slow on B, Kill flankers, Get defender playstyle info on B",
+                    "loadout": { "smoke": false, "frag": false }
+                },
+                {
+                    "name": "Calcifer",
+                    "summary": "Pressure Broken with Jben, SMOKE Connector, Play Broken Wall",
+                    "loadout": { "smoke": true, "frag": false }
+                },
+                {
+                    "name": "Jben",
+                    "summary": "SMOKE Right Side Statue, Pressure broken, flank tank, Help Push A",
+                    "loadout": { "smoke": true, "frag": false }
+                }
+            ]
+        },
+        {
+            "name": "B Snake",
+            "summary": "3 through street taking L turn and Back B Stairs, pinching on B site",
+            "requiredLoadout": {
+                "coinsNeeded": 4,
+                "smokesNeeded": 2,
+                "nadesNeeded": 1
+            },
+            "roles": [
+                {
+                    "name": "Mojo",
+                    "summary": "SMOKE Front Truck, Take Stair Control",
+                    "loadout": { "smoke": true, "frag": false }
+                },
+                {
+                    "name": "Mystik",
+                    "summary": "Nade L Turn, Signal GO when getting ready to nade",
+                    "loadout": { "smoke": false, "frag": true }
+                },
+                {
+                    "name": "Fire",
+                    "summary": "Nades white box, SMOKE Connector, Holds Back Truck Control",
+                    "loadout": { "smoke": true, "frag": true }
+                },
+                {
+                    "name": "Calcifer",
+                    "summary": "Holds T-Con, free to nade or SMOKE whatever",
+                    "loadout": { "smoke": false, "frag": false }
+                },
+                {
+                    "name": "Jben",
+                    "summary": "Free Nade, Take L Control",
+                    "loadout": { "smoke": false, "frag": false }
+                }
+            ]
+        },
+        {
+            "name": "A Coast Heavy",
+            "summary": "Get Headshot Control, Double MID Smokes, pressure A, Smoke Tank",
+            "requiredLoadout": {
+                "coinsNeeded": 7,
+                "smokesNeeded": 3,
+                "nadesNeeded": 2
+            },
+            "roles": [
+                {
+                    "name": "Mojo",
+                    "summary": "Pressure through bottom A, CAN hold SMOKE for tank",
+                    "loadout": { "smoke": false, "frag": false }
+                },
+                {
+                    "name": "Mystik",
+                    "summary": "SMOKE Left Side Statue, nade A-Alley",
+                    "loadout": { "smoke": true, "frag": true }
+                },
+                {
+                    "name": "Fire",
+                    "summary": "Control Headshot on Broken, Nade A Bombsite",
+                    "loadout": { "smoke": false, "frag": false }
+                },
+                {
+                    "name": "Calcifer",
+                    "summary": "SMOKE tank late for cross, Hold Flank/Mid/Top A",
+                    "loadout": { "smoke": true, "frag": false }
+                },
+                {
+                    "name": "Jben",
+                    "summary": "SMOKE right side statue, Nade front red, Hold coastal",
+                    "loadout": { "smoke": true, "frag": true }
+                }
+            ]
+        }
+    ]
+}

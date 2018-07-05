@@ -1,0 +1,12 @@
+
+@import '_variables.scss';
+@import '_infoBar.scss';
+@import '_stratBody.scss';
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px auto;
+    align-content: center;
+    background-color: $backgroundColor;
+    color: $fontColor;
+}

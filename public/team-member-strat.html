@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Team Member Strategy</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous">
+    </script>
+</head>
+
+<body>
+    <div class="info-bar">
+        <div id="map"><span id="map-name"></span> <span id="strat-name"></span></div>
+        <div id="name">            
+            <select id="name-select">
+            </select>
+        </div>
+    </div>
+    <div class="strat-body">
+        <div class="section" id="summary">
+            <div class="heading">SUMMARY</div>
+            <div class="text">Unknown</div>
+        </div>
+        <div class="section" id="role-detail">
+            <div class="grenades">
+                <img src="images/frag.png" class="not-required" id="frag"/>
+                <img src="images/smoke.png" id="smoke"/>
+            </div>
+            <div class="text" id="role-text">
+                <ol id="role-list">
+                    <li><img src="images/smoke.png" class="inline-img"/>Right Side Arch</li>
+                    <li>Gather Info At B</li>
+                    <li>Kill flankers</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="./js/websocket.js"></script>
+</html>

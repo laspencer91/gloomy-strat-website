@@ -1,0 +1,61 @@
+.info-bar {
+  padding: 1em 2em .5em 2em;
+  width: 85%;
+  margin: 0 auto;
+  height: 4em;
+  display: flex;
+  justify-content: space-between; }
+  .info-bar #name {
+    font-size: 2em;
+    height: 100%; }
+  .info-bar #name-select {
+    font-size: 1em; }
+  .info-bar #map {
+    font-size: 4em;
+    margin-right: 2em;
+    align-self: flex-end;
+    text-transform: uppercase; }
+    .info-bar #map #strat-name {
+      color: #b30000;
+      font-size: 0.5em; }
+
+.strat-body {
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 2em; }
+  .strat-body #name {
+    width: 100%;
+    font-size: 3.5em;
+    text-align: center;
+    margin-bottom: 0.2em;
+    text-transform: uppercase; }
+  .strat-body .section {
+    margin-bottom: 2em;
+    background-color: #6a6a6a;
+    padding: 1em; }
+    .strat-body .section img {
+      width: 100px;
+      height: 100px;
+      -webkit-filter: invert(100%); }
+    .strat-body .section .not-required {
+      opacity: 0.05; }
+    .strat-body .section li {
+      margin: 0.2em; }
+    .strat-body .section .inline-img {
+      width: 1.5em;
+      height: 1.5em;
+      margin-right: .5em;
+      margin-left: .5em; }
+  .strat-body .heading {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    font-weight: bold; }
+  .strat-body .text {
+    font-size: 1.5em; }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0px auto;
+  align-content: center;
+  background-color: #212121;
+  color: white; }
