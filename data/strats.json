@@ -154,43 +154,43 @@
     "manorhouse": [
         {
             "name": "Default",
-            "summary": "Focusing on gathering information, and maintaining map control",
+            "summary": "Focusing on gathering information, and maintaining map control. Rotate towards picks with late smokes.",
             "requiredLoadout": {
-                "coinsNeeded": 4,
-                "smokesNeeded": 4,
-                "nadesNeeded": 0
+                "coinsNeeded": 5,
+                "smokesNeeded": 3,
+                "nadesNeeded": 1
             },
             "roles": [
                 {
                     "name": "Mojo",
-                    "summary": "Take Bottom Red Control, Hold SMOKE For A cross, Push Bottom A",
+                    "summary": "Pressure B Road, Hold SMOKE for late site take OR use for early Barn Push",
                     "loadout": { "smoke": true, "frag": false }
                 },
                 {
                     "name": "Mystik",
-                    "summary": "SMOKE Left Side Statue, Play Slow On Coast, Observer Defenders Nades and Positions",
+                    "summary": "SMOKE Middle, Watch for early manor push, Slow push trench and look for defensive tendencies",
                     "loadout": { "smoke": true, "frag": false }
                 },
                 {
                     "name": "Fire",
-                    "summary": "Play slow on B, Kill flankers, Get defender playstyle info on B",
+                    "summary": "Play slow on B, Look for defensive tendencies on B",
                     "loadout": { "smoke": false, "frag": false }
                 },
                 {
                     "name": "Calcifer",
-                    "summary": "Pressure Broken with Jben, SMOKE Connector, Play Broken Wall",
+                    "summary": "Work upper Manor getting picks and info, Hold SMOKE for front A-Barn later in round or as needed.",
                     "loadout": { "smoke": true, "frag": false }
                 },
                 {
                     "name": "Jben",
-                    "summary": "SMOKE Right Side Statue, Pressure broken, flank tank, Help Push A",
-                    "loadout": { "smoke": true, "frag": false }
+                    "summary": "G A-Long; NADE A-DarkBarn or Shortwall, Work Long Slowly, Look For Defensive Info On A Side, Help Manorhouse if we have early losses",
+                    "loadout": { "smoke": false, "frag": true }
                 }
             ]
         },
         {
-            "name": "B Snake",
-            "summary": "3 through street taking L turn and Back B Stairs, pinching on B site",
+            "name": "B POWER",
+            "summary": "Heavy focus on B-Site. Nade for close white box, aim toward fast site take and plant.",
             "requiredLoadout": {
                 "coinsNeeded": 4,
                 "smokesNeeded": 2,
@@ -199,33 +199,33 @@
             "roles": [
                 {
                     "name": "Mojo",
-                    "summary": "SMOKE Front Truck, Take Stair Control",
-                    "loadout": { "smoke": true, "frag": false }
+                    "summary": "Push through Manorhouse (Clear Car Early), SMOKE AND/OR NADE barn gay corner from white box, Clear close left B Site, Hold Double Doors",
+                    "loadout": { "smoke": true, "frag": true }
                 },
                 {
                     "name": "Mystik",
-                    "summary": "Nade L Turn, Signal GO when getting ready to nade",
-                    "loadout": { "smoke": false, "frag": true }
+                    "summary": "SMOKE Mid, Peek for early manor push, Watch flank",
+                    "loadout": { "smoke": true, "frag": false }
                 },
                 {
                     "name": "Fire",
-                    "summary": "Nades white box, SMOKE Connector, Holds Back Truck Control",
+                    "summary": "SMOKE and NADE B Arch Early, Take Platform Peek, Take White Box",
                     "loadout": { "smoke": true, "frag": true }
                 },
                 {
                     "name": "Calcifer",
-                    "summary": "Holds T-Con, free to nade or SMOKE whatever",
+                    "summary": "Choose TOP MANOR or Help On B, SMOKE A-Long for fake or user for resmoke where needed, Play FLEXIBLE",
                     "loadout": { "smoke": false, "frag": false }
                 },
                 {
                     "name": "Jben",
-                    "summary": "Free Nade, Take L Control",
-                    "loadout": { "smoke": false, "frag": false }
+                    "summary": "Wait for initial Smokes, NADE and SMOKE close whitebox from Fountain, Help clear site, Plant",
+                    "loadout": { "smoke": true, "frag": true }
                 }
             ]
         },
         {
-            "name": "A Coast Heavy",
+            "name": "A POWER ",
             "summary": "Get Headshot Control, Double MID Smokes, pressure A, Smoke Tank",
             "requiredLoadout": {
                 "coinsNeeded": 7,

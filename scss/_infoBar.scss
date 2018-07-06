@@ -1,6 +1,6 @@
 
 .info-bar {
-    padding: 1em 2em .5em 2em;
+    padding: 2.5em 2em .5em 2em;
     width: 85%;
     margin: 0 auto;
     height: 4em;
@@ -26,5 +26,15 @@
             color: #b30000;
             font-size: 0.5em;
         }
+    }
+
+    #map-select {
+        font-size: 50px;
+        width: 100%;
+    }
+
+    #strat-select {
+        font-size: 50px;
+        width: 100%;
     }
 }
